@@ -7,15 +7,15 @@
         "editorBracketHighlight.foreground3": "#5081eb", //blue
         "editorBracketHighlight.foreground4": "#5be7a1", //green
         "editorBracketHighlight.foreground5": "#a908f3", //purple
-        "editorBracketHighlight.foreground6": "#f56b2c"  //orange
+        "editorBracketHighlight.foreground6": "#f56b2c", //orange
     },
     "editor.guides.bracketPairs": "active",
     "indentRainbow.colors": [
-        "rgba(208,98,147,0.2)",
-        "rgba(243,203,118,0.2)",
-        "rgba(80,129,235,0.2)",
-        "rgba(91,231,161,0.2)",
-        "rgba(169,8,243,0.2)",
-        "rgba(245,107,44,0.2)"
+        "rgba(208,98,147,0.08)",
+        "rgba(243,203,118,0.08)",
+        "rgba(80,129,235,0.08)",
+        "rgba(91,231,161,0.08)",
+        "rgba(169,8,243,0.08)",
+        "rgba(245,107,44,0.08)"
     ]
 }

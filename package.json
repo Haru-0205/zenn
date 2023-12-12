@@ -6,6 +6,6 @@
   "author": "Haru-0205 <rm23081b@osaka-pct.ac.jp>",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.149"
+    "zenn-cli": "^0.1.150"
   }
 }
