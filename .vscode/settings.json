@@ -23,5 +23,16 @@
         "rgba(169,8,243,0.08)",
         "rgba(245,107,44,0.08)"
     ],
+    "markdownlint.config": {
+        "default": true,
+        "MD025": false, //複数の第1レベル見出しを許可
+        "MD040": false, //コードブロック記法でコードブロックを示すことを許可
+        "MD034": false, //URLベタ打ちを許可
+        "MD012": false, //謎エラー回避
+        "MD045": false, //写真のキャプションなしを許可
+        "MD035": false, //***や___を許可
+        "MD029": false, //番号付きリストの番号ミスを許可
+        "MD033": false //Inline HTMLを許可
+    }
 
 }
