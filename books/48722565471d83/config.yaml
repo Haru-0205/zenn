@@ -1,0 +1,15 @@
+title: "NeoVim/Docker/LilyPondで作る楽譜入り書類執筆環境"
+summary: "LilyPondによる楽譜作成環境をDockerで作り、そこでNeoVimを使ってVSCodeに劣らないようなシステムを構築しようというものです。なお、これはVim駅伝4/1の記事です。"
+topics: ["NeoVim","LilyPond","docker"]
+published: false
+published_at: 2024-04-01 00:00
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - 001_intro
+  - 002_about_vim
+  - 003_about
+  - 004_about_lilypond
+  - 005_about_nix
+  - 006_install_nix
+  - 007_conf_nix

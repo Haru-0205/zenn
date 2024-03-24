@@ -1,10 +1,10 @@
 {
     //テーマ
-    "workbench.colorTheme": "fairyfloss",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.productIconTheme": "fluent-icons",
     //フォント
-    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontFamily": "Firple",
     //色のカスタマイズ
     "editor.guides.bracketPairs": "active",
     "workbench.colorCustomizations": {

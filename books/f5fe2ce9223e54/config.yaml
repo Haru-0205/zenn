@@ -1,9 +1,0 @@
-title: "LilyPondとLaTeXによる楽譜入り文書作成入門"
-summary: "高品位な楽譜を無償で作れる「LilyPond」とLaTeXを組み合わせることで、楽典に関する資料を簡単に作ることができます。この本では、LilyPondおよびLaTeXの基礎から文書作成の具体的なやり方をご紹介します。"
-topics: []
-published: false
-price: 0 # 有料の場合200〜5000
-# 本に含めるチャプターを順番に並べましょう
-chapters:
-  - example1
-  - example2
