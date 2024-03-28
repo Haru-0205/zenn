@@ -13,3 +13,8 @@ chapters:
   - 005_about_nix
   - 006_install_nix
   - 007_conf_nix
+  - 008_nvim_conf
+  - 009_about_lua
+  - 010_about_plugin
+  - 011_about_lsp
+  - 012_lilypond
