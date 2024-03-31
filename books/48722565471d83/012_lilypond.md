@@ -44,7 +44,32 @@ WSL上で動かしている場合は`okular sample.pdf`で見れます。
 ```lilypond
 <<
     \relative c' {
-        c4(d e f g a b c) <c e g>2 <c es g>2  
+        c4 d e f g a b c <c e g>2 <c es g>2  
     }
+    \addlyrics {
+        c d e f g a b c C Cm
+    }
+>>
 ```
 
+かけたらノーマルモードで<F5>キーを押下→PDFビューワーで見てください。  
+和音と歌詞がつけれたと思います。
+
+LilyPond記法について、詳しくは公式ドキュメントを参照してください。  
+
+https://lilypond.org/text-input.ja.html
+
+https://lilypond.org/doc/v2.24/Documentation/learning/index.ja.html
+
+とりあえずこれを読めばしばらくは困ることはないと思います。
+
+そして、「学習」マニュアルに掲載されている内容以外でやりたいことがあればこちらを参照してください。
+
+https://lilypond.org/doc/v2.24/Documentation/notation/index.ja.html
+
+これは記譜法のリファレンスですので、すべて読む必要はないと思います。必要なところだけ読みましょう。
+
+https://lilypond.org/doc/v2.24/Documentation/music-glossary/index#top
+
+さらに、音楽用語に疎い人はこの資料を参照してもよいでしょう。様々な言語(英語・イタリア語・ドイツ語...)で書かれた音楽用語の説明です。  
+これこそすべて読むのは不可能なので、必要なところだけ読みましょう。

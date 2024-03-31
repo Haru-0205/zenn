@@ -12,8 +12,10 @@ title: Nixの設定
 - git
 - lilypond
 - Okular
-- texliveMedium
+- texlive(Fullスキーム)
+
 以下NeoVimプラグインの依存関係
+
 - ripgrep
 - fd
 - deno
@@ -41,26 +43,26 @@ title: Nixの設定
             in 
             {
                 devShell = pkgs.mkshell {
-                    buildInputs = [
-                        pkgs.neovim
-                        pkgs.git
-                        pkgs.lilypond
-                        pkgs.okular
-                        pkgs.texliveMedium
-                        pkgs.ripgrep
-                        pkgs.fd
-                        pkgs.deno
-                        pkgs.mpv
-                        pkgs.timidity
-                        pkgs.soundfont-fluid
-                        pkgs.fluidsynth
-                        pkgs.ffmpeg
+                    buildInputs = with pkgs;[
+                        neovim
+                        git
+                        lilypond
+                        okular
+                        texliveFull
+                        ripgrep
+                        fd
+                        deno
+                        mpv
+                        timidity
+                        soundfont-fluid
+                        fluidsynth
+                        ffmpeg
                     ];
                 };
             });
 }
 ```
-先述の通り、flakeのinputにないものはbuildに影響を及ぼせないので、必要なnixpkgsとflake-utilsをinputに指定  
-outputのほうはボクはまだわかってないですが、`buildInputs`の中身が`nix develop`したときに中に入っているパッケージです。
+先述の通り、flakeのinputにないものはbuildに影響を及ぼせないので、必要なnixpkgsとflake-utilsをinputに指定しました。  
+outputのほうは私はまだわかってないですが、`buildInputs`の中身が`nix develop`したときに中に入っているパッケージです。
 
                 
