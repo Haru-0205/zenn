@@ -1,0 +1,21 @@
+title: "Neovimで書き初め(という名の書類作成)をする"
+summary: "Vim駅伝1/1の記事として、書き初めをしようと思います。時間軸がどうしてもずれるのは...亜空間かなにかをつかってどうにかしたと思ってください。ついでにTeXとSATySFi、TypstとVivliostyleの書き比べもしようと思います。"
+topics: ["Neovim", "SATySFi", "Typst", "Vivliostyle"]
+published: true
+published_at: 2025-01-01 06:00
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - 01_intro
+  - 02_nix
+  - 03_nvim
+  - 04_tex
+  - 05_satysfi
+  - 06_typst
+  - 07_vivliostyle
+  - 08_zenn_cli
+  - 09_doc
+  - 10_npo
+  - 11_teikan
+  - 12_rep
+  - 13_outro
