@@ -3,7 +3,7 @@ summary: "Vim駅伝1/1の記事として、書き初めをしようと思いま�
 topics: ["Neovim", "SATySFi", "Typst", "Vivliostyle"]
 published: true
 published_at: 2025-01-01 06:00
-publication: vim-jp
+publication_name: vim-jp
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
